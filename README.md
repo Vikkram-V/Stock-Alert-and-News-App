@@ -20,7 +20,7 @@ Stock Alert and News App is a Python-based automation tool that monitors stock p
 ### 📌 Installation & Setup  
 
 #### 1️⃣ Clone the repository  
-        git clone https://github.com/yourusername/stock-alert-news-app.git
+        git clone https://github.com/Vikkram-V/stock-alert-news-app.git
         cd stock-alert-news-app
         
 #### 2️⃣ Install dependencies  
@@ -45,17 +45,19 @@ STOCK_SYMBOL=TSLA  # Example stock symbol
 ### 📌 Example Output
 If the stock price changes by more than 5%, you receive a WhatsApp message like:  
 
-📈 Tesla Stock Alert 🚀  
-TSLA stock price changed by +5.2% today!  
+TSLA: 🔺6%
+Headline: Were Hedge Funds Right About Piling Into Tesla Inc. (TSLA)?. 
+Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and prominent investors are required to file by the SEC The 13F filings show the funds' and investors' portfolio positions as of March 31st, near the height of the coronavirus market crash.
 
-📰 Top News:  
-1️⃣ Tesla launches new EV model in 2024...  
-2️⃣ Elon Musk announces AI-driven stock predictions...  
-3️⃣ Tesla stocks hit a record high this quarter...  
+TSLA: 🔻6%
+Headline: Were Hedge Funds Right About Piling Into Tesla Inc. (TSLA)?. 
+Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and prominent investors are required to file by the SEC The 13F filings show the funds' and investors' portfolio positions as of March 31st, near the height of the coronavirus market crash.
 
+TSLA: 🔻8%
+Headline: Were Hedge Funds Right About Piling Into Tesla Inc. (TSLA)?. 
+Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and prominent investors are required to file by the SEC The 13F filings show the funds' and investors' portfolio positions as of March 31st, near the height of the coronavirus market crash.
 
 ### 📌 Future Enhancements  
 🔹 Support for **multiple stocks**  
 🔹 Custom alerts for **different percentage thresholds**  
 🔹 Integration with **email notifications**  
-
