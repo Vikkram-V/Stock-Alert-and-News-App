@@ -23,11 +23,7 @@ Stock Alert and News App is a Python-based automation tool that monitors stock p
         git clone https://github.com/Vikkram-V/stock-alert-news-app.git
         cd stock-alert-news-app
         
-#### 2️⃣ Install dependencies  
-
-        pip install -r requirements.txt
-
-#### 3️⃣ Set up API keys  
+#### 2️⃣ Set up API keys  
 Create a `.env` file and add your API keys:  
 
 ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key
@@ -38,7 +34,7 @@ TWILIO_PHONE_NUMBER=your_twilio_phone_number
 USER_PHONE_NUMBER=your_whatsapp_number
 STOCK_SYMBOL=TSLA  # Example stock symbol
 
-#### 4️⃣ Run the script 
+#### 3️⃣ Run the script 
 
         python main.py
 
