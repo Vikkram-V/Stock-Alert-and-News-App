@@ -26,13 +26,19 @@ Stock Alert and News App is a Python-based automation tool that monitors stock p
 #### 2️⃣ Set up API keys  
 Create a `.env` file and add your API keys:  
 
+# Stock & News APIs
 ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key
 NEWS_API_KEY=your_news_api_key
+
+# Twilio Credentials
 TWILIO_ACCOUNT_SID=your_twilio_account_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_PHONE_NUMBER=your_twilio_phone_number
-USER_PHONE_NUMBER=your_whatsapp_number
-STOCK_SYMBOL=TSLA  # Example stock symbol
+TWILIO_PHONE_NUMBER=whatsapp:+14155238886  # Twilio WhatsApp sandbox number
+USER_PHONE_NUMBER=whatsapp:+919875618970  # Your WhatsApp number
+
+# Stock Details
+STOCK_SYMBOL=TSLA
+COMPANY_NAME=Tesla Inc
 
 #### 3️⃣ Run the script 
 
